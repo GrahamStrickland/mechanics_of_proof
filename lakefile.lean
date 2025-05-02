@@ -1,7 +1,7 @@
 import Lake
 open Lake DSL
 
-package math2001 where
+package MechanicsOfProof where
   moreServerArgs := #[
     "-Dlinter.unusedVariables=false", -- ignores unused variables
     "-DquotPrecheck=false",
@@ -12,8 +12,8 @@ package math2001 where
 lean_lib Library
 
 @[default_target]
-lean_lib Math2001 where
-  globs := #[.submodules `Math2001]
+lean_lib MechanicsOfProof where
+  globs := #[.submodules `MechanicsOfProof]
   moreLeanArgs := #[
     "-Dlinter.unusedVariables=false", -- ignores unused variables
     "-DquotPrecheck=false",

@@ -50,7 +50,7 @@ attribute [-norm_num] Mathlib.Meta.NormNum.evalNatDvd
   Mathlib.Meta.NormNum.evalIntDvd
 ```
 -/
-elab "math2001_init" : command => do
+elab "mechanicsofproof_init" : command => do
   trySetOptions #[
     ⟨`push_neg.use_distrib, true⟩
   ]

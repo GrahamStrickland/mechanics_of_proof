@@ -22,7 +22,7 @@ The `numbers` tactic is a light modification of the Mathlib `norm_num1` tactic, 
 It is often convenient for teaching to further modify `norm_num1`/`numbers` by disabling some of the
 `norm_num` extensions, when they perform calculations you wish your students to carry out by hand.
 This can be done via an initializion command which is run in each file; for example, the
-`math2001_init` command in this repository disables the `norm_num` extensions
+`mechanicsofproof_init` command in this repository disables the `norm_num` extensions
 `Mathlib.Meta.NormNum.evalNatDvd` and `Mathlib.Meta.NormNum.evalIntDvd`. -/
 
 open Lean Meta Elab

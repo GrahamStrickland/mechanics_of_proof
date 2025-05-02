@@ -73,5 +73,5 @@
    "inputRev": "864b34ce06d8536aec0c38e57448c17d1f83572a",
    "inherited": false,
    "configFile": "lakefile.lean"}],
- "name": "math2001",
+ "name": "MechanicsOfProof",
  "lakeDir": ".lake"}

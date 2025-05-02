@@ -1,0 +1,20 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"workbench.colorTheme": "Default Dark+",
+		"editor.semanticTokenColorCustomizations": {
+			"[Default Light+]": {
+				"rules": {
+					"variable": "#7f197f"
+				}
+			}
+		},
+		"lean4.infoview.showExpectedType": false,
+		"lean4.infoview.emphasizeFirstGoal": true,
+		"lean4.infoview.showGoalNames": false
+	}
+}
